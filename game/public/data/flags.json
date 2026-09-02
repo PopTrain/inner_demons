@@ -2,6 +2,9 @@
     "flags": {
         "OBTAINED_STARTER_DEMON": false,
         "OBTAINED_DEMONARY": false,
+        "OBTAINED_BAG": false,
+        "OBTAINED_CYBERDECK": false,
+        "OBTAINED_TRAINER_CARD": false,
         "DEFEATED_NORMA": false
     },
     "variables": {

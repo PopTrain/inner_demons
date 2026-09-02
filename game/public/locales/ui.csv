@@ -1,7 +1,24 @@
 KEY,en,es-EU,es-LA,pt-EU,pt-LA,fr
-SETTINGS.title,"Settings",
-SETTINGS.bgm_volume,"Music Volume",
-SETTINGS.bgs_volume,"Ambience Volume",
-SETTINGS.me_volume,"Jingle Volume",
-SETTINGS.se_volume,"Sound Effect Volume",
-SETTINGS.close_hint,"Press the Z key to close. Use arrow keys to adjust.",
+COMMON.back,"Back",,,,,"Retour"
+SETTINGS.title,"Settings",,,,,"Paramètres"
+SETTINGS.bgm_volume,"Music Volume",,,,,"Volume Musique"
+SETTINGS.bgs_volume,"Ambience Volume",,,,,"Volume Ambiance"
+SETTINGS.me_volume,"Jingle Volume",,,,,"Volume Jingle"
+SETTINGS.se_volume,"Sound Effect Volume",,,,,"Volume Effets Sonores"
+SETTINGS.close_hint,"Press X or tap Back to close. Use arrow keys to adjust.",,,,,"Appuyez sur X ou touchez Retour pour fermer. Flèches pour ajuster."
+TITLE.heading,"Inner Demons\nFairbound Crypt",,,,,"Démons Intérieurs\nCrypte de Fairbound"
+TITLE.prompt,"Tap below or press Confirm",,,,,"Touchez l'écran ou appuyez sur Confirmer"
+OVERWORLD.party_label,"Party: {name} Lv.{level}",,,,,"Équipe : {name} Nv.{level}"
+LANGUAGE.title,"Language",,,,,"Langue"
+LANGUAGE.hint,"Up/Down to preview, Confirm to close",,,,,"Haut/Bas pour prévisualiser, Confirmer pour fermer"
+OVERWORLD.welcome,"Welcome, \pn!\nYour first partner is {1}.",,,,,"Bienvenue, \pn !\nTon premier partenaire est {1}."
+MENU.title,"Menu",,,,,"Menu"
+MENU.demonary,"Demonary",,,,,"Démonaire"
+MENU.demons,"Demons",,,,,"Démons"
+MENU.bag,"Bag",,,,,"Sac"
+MENU.cyberdeck,"Cyberdeck",,,,,"Cyberdeck"
+MENU.trainer_card,"Trainer Card",,,,,"Carte de Dresseur"
+MENU.save,"Save",,,,,"Sauvegarder"
+MENU.settings,"Settings",,,,,"Paramètres"
+MENU.saved,"Game saved!",,,,,"Partie sauvegardée !"
+MENU.hint,"Move or click to select, Confirm to open, X or Back to close",,,,,"Déplacez-vous ou cliquez pour sélectionner, Confirmer pour ouvrir, X ou Retour pour fermer"

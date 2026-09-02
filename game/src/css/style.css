@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Fixedsys Excelsior";
+  src: url("/fonts/FSEX302.ttf") format("truetype");
+  font-display: block;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+#game-root {
+  width: 100%;
+  height: 100%;
+}

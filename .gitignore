@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+*.tsbuildinfo
 
 # Editor directories and files
 .vscode/*
@@ -32,6 +33,9 @@ generated/
 vendor/
 package-lock.json
 
+# Electron
+electron-dist/
+
 # Android
 *.apk
 *.aar
@@ -40,6 +44,14 @@ package-lock.json
 lint/
 .gradle/
 captures/
+android/local.properties
+
+# iOS
+ios/App/Pods/
+ios/App/Podfile.lock
+**/xcuserdata/
+**/*.xcuserstate
+DerivedData/
 
 # Claude
 .claude

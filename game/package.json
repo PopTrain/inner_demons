@@ -1,0 +1,35 @@
+{
+  "name": "inner-demons",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "electron:dev": "concurrently -k -s first \"vite\" \"wait-on tcp:5173 && tsc -p electron/tsconfig.json && electron electron-dist/main.js\"",
+    "cap:sync": "npm run build && cap sync",
+    "android:add": "cap add android",
+    "android:open": "npm run cap:sync && cap open android",
+    "ios:add": "cap add ios",
+    "ios:open": "npm run cap:sync && cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0",
+    "pixi.js": "^8.6.0",
+    "three": "^0.170.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "@types/node": "^22.10.1",
+    "@types/three": "^0.170.0",
+    "concurrently": "^9.1.0",
+    "electron": "^44.1.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3",
+    "wait-on": "^8.0.1"
+  }
+}
