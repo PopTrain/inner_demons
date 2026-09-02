@@ -1,0 +1,14 @@
+{
+    "POTION": {
+        "itemId": "Potion",
+        "category": "Medicine",
+        "buyPrice": 300,
+        "sellPrice": 150,
+        "isConsumable": true,
+        "maxStack": 999,
+        "effectPayload": {
+            "target": "ACTIVE_DEMON",
+            "healAmount": 20
+        }
+    }
+}

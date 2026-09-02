@@ -1,0 +1,251 @@
+{
+    "ROOKEEN": {
+        "speciesId": "Rookeen",
+        "rank": "Kilo",
+        "height": 0.3,
+        "weight": 1.5,
+        "elementalTypes": [
+            "Simple"
+        ],
+        "baseStats": {
+            "hp": 50,
+            "stamina": 40,
+            "mattack": 40,
+            "mdefense": 40,
+            "rattack": 40,
+            "rdefense": 40,
+            "speed": 30
+        },
+        "training": {
+            "tpYield": 1,
+            "baseExp": 49,
+            "catchRate": 190,
+            "growthRate": "Medium"
+        },
+        "movePool": {
+            "levelUp": [
+                {
+                    "moveId": "TACKLE",
+                    "level": 1
+                },
+                {
+                    "moveId": "GROWL",
+                    "level": 1
+                }
+            ],
+            "moveManual": [
+                {
+                    "moveId": "DODGE"
+                }
+            ],
+            "tutor": []
+        },
+        "evolutionRules": [
+            {
+                "targetSpeciesId": "MISTRUNT",
+                "requiresFriendship": 25
+            },
+            {
+                "targetSpeciesId": "KIDDOAT",
+                "requiredLevel": 10
+            },
+            {
+                "targetSpeciesId": "CHARTLE",
+                "requiredLevel": 10
+            },
+            {
+                "targetSpeciesId": "MUBBLE",
+                "requiredLevel": 10
+            }
+        ]
+    },
+    "MISTRUNT": {
+        "speciesId": "Mistrunt",
+        "rank": "Mega",
+        "height": 0.6,
+        "weight": 3.2,
+        "elementalTypes": [
+            "Simple"
+        ],
+        "baseStats": {
+            "hp": 55,
+            "stamina": 45,
+            "mattack": 40,
+            "mdefense": 85,
+            "rattack": 80,
+            "rdefense": 105,
+            "speed": 40
+        },
+        "training": {
+            "tpYield": 2,
+            "baseExp": 142,
+            "catchRate": 75,
+            "growthRate": "Medium"
+        },
+        "movePool": {
+            "levelUp": [
+                {
+                    "moveId": "TACKLE",
+                    "level": 1
+                },
+                {
+                    "moveId": "GROWL",
+                    "level": 1
+                },
+                {
+                    "moveId": "SPIT",
+                    "level": 1
+                },
+                {
+                    "moveId": "LICK",
+                    "level": 1
+                },
+                {
+                    "moveId": "BITE",
+                    "level": 9
+                }
+            ],
+            "moveManual": [
+                {
+                    "moveId": "DODGE"
+                },
+                {
+                    "moveId": "EXPLODE"
+                }
+            ],
+            "tutor": []
+        },
+        "evolutionRules": [
+            {
+                "targetSpeciesId": "REDEMZEN",
+                "requiredFriendship": 190
+            }
+        ]
+    },
+    "REDEMZEN": {
+        "speciesId": "Redemzen",
+        "rank": "Giga",
+        "height": 1.5,
+        "weight": 38.0,
+        "elementalTypes": [
+            "Light",
+            "Air"
+        ],
+        "baseStats": {
+            "hp": 85,
+            "stamina": 75,
+            "mattack": 50,
+            "mdefense": 95,
+            "rattack": 120,
+            "rdefense": 115,
+            "speed": 80
+        },
+        "training": {
+            "tpYield": 3,
+            "baseExp": 245,
+            "catchRate": 30,
+            "growthRate": "Medium"
+        },
+        "movePool": {
+            "levelUp": [
+                {
+                    "moveId": "TACKLE",
+                    "level": 1
+                },
+                {
+                    "moveId": "GROWL",
+                    "level": 1
+                },
+                {
+                    "moveId": "SPIT",
+                    "level": 1
+                },
+                {
+                    "moveId": "LICK",
+                    "level": 1
+                },
+                {
+                    "moveId": "BITE",
+                    "level": 1
+                },
+                {
+                    "moveId": "SHINE",
+                    "level": 1
+                },
+                {
+                    "moveId": "AIRSLASH",
+                    "level": 1
+                }
+            ],
+            "moveManual": [
+                {
+                    "moveId": "DODGE"
+                },
+                {
+                    "moveId": "EXPLODE"
+                }
+            ],
+            "tutor": []
+        }
+    },
+    "KIDDOAT": {
+        "speciesId": "Kiddoat",
+        "rank": "Mega",
+        "height": 0.4,
+        "weight": 9.4,
+        "elementalTypes": [
+            "Plant"
+        ],
+        "baseStats": {
+            "hp": 40,
+            "stamina": 45,
+            "mattack": 45,
+            "mdefense": 40,
+            "rattack": 62,
+            "rdefense": 60,
+            "speed": 60
+        },
+        "training": {
+            "tpYield": 2,
+            "baseExp": 61,
+            "catchRate": 45,
+            "growthRate": "Medium"
+        },
+        "movePool": {
+            "levelUp": [
+                {
+                    "moveId": "TACKLE",
+                    "level": 1
+                },
+                {
+                    "moveId": "GROWL",
+                    "level": 1
+                },
+                {
+                    "moveId": "LEAFAGE",
+                    "level": 6
+                },
+                {
+                    "moveId": "SING",
+                    "level": 11
+                },
+                {
+                    "moveId": "HEADBUTT",
+                    "level": 15
+                }
+            ],
+            "moveManual": [
+                {
+                    "moveId": "DODGE"
+                }
+            ],
+            "tutor": []
+        },
+        "evolutionRules": [
+            {
+                "targetSpeciesId": "PANGROAT",
+                "level": 16
+            }
+        ]
+    }
+}

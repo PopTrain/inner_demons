@@ -1,0 +1,7 @@
+KEY,en,es-EU,es-LA,pt-EU,pt-LA,fr
+SETTINGS.title,"Settings",
+SETTINGS.bgm_volume,"Music Volume",
+SETTINGS.bgs_volume,"Ambience Volume",
+SETTINGS.me_volume,"Jingle Volume",
+SETTINGS.se_volume,"Sound Effect Volume",
+SETTINGS.close_hint,"Press the Z key to close. Use arrow keys to adjust.",

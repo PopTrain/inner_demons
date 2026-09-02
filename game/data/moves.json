@@ -1,0 +1,32 @@
+{
+    "TACKLE": {
+        "moveId": "TACKLE",
+        "elementalType": "Simple",
+        "category": "Melee",
+        "power": 40,
+        "accuracy": 100,
+        "energyCost": 15,
+        "priority": 0,
+        "makesContact": true
+    },
+    "GROWL": {
+        "moveId": "GROWL",
+        "elementalType": "Simple",
+        "category": "Status",
+        "power": 0,
+        "accuracy": 100,
+        "energyCost": 15,
+        "priority": 0,
+        "makesContact": false,
+        "secondaryEffect": {
+            "chance": 100,
+            "statModifiers": [
+                {
+                    "stat": "mattack",
+                    "stages": -1,
+                    "target": "opponent"
+                }
+            ]
+        }
+    }
+}

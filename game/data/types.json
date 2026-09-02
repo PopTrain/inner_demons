@@ -1,0 +1,315 @@
+{
+    "SIMPLE": {
+        "id": "SIMPLE",
+        "attackingMatchups": {
+            "effective": [],
+            "resist": [],
+            "immune": [
+                "SPIRIT"
+            ]
+        }
+    },
+    "PLANT": {
+        "id": "PLANT",
+        "attackingMatchups": {
+            "effective": [
+                "WATER",
+                "LIGHT",
+                "EARTH"
+            ],
+            "resist": [
+                "PLANT",
+                "WATER",
+                "ELECTRIC",
+                "EARTH"
+            ],
+            "immune": [
+                "LIGHT"
+            ]
+        }
+    },
+    "FIRE": {
+        "id": "FIRE",
+        "attackingMatchups": {
+            "effective": [
+                "PLANT",
+                "BUG",
+                "DARK",
+                "METAL"
+            ],
+            "resist": [
+                "FIRE",
+                "PLANT",
+                "ICE",
+                "METAL",
+                "LIGHT"
+            ],
+            "immune": []
+        }
+    },
+    "WATER": {
+        "id": "WATER",
+        "attackingMatchups": {
+            "effective": [
+                "FIRE",
+                "EARTH"
+            ],
+            "resist": [
+                "WATER",
+                "FIRE",
+                "ICE",
+                "METAL"
+            ],
+            "immune": []
+        }
+    },
+    "ELECTRIC": {
+        "id": "ELECTRIC",
+        "attackingMatchups": {
+            "effective": [
+                "WATER",
+                "AIR",
+                "METAL"
+            ],
+            "resist": [
+                "ELECTRIC",
+                "METAL"
+            ],
+            "immune": []
+        }
+    },
+    "ICE": {
+        "id": "ICE",
+        "attackingMatchups": {
+            "effective": [
+                "PLANT",
+                "AIR",
+                "EARTH",
+                "ARCHAIC"
+            ],
+            "resist": [
+                "ICE"
+            ],
+            "immune": []
+        }
+    },
+    "AIR": {
+        "id": "AIR",
+        "attackingMatchups": {
+            "effective": [
+                "PLANT",
+                "FIRE",
+                "BUG",
+                "BRAWL"
+            ],
+            "resist": [
+                "PLANT",
+                "BUG",
+                "BRAWL"
+            ],
+            "immune": [
+                "EARTH"
+            ]
+        }
+    },
+    "BUG": {
+        "id": "BUG",
+        "attackingMatchups": {
+            "effective": [
+                "PLANT",
+                "MIND",
+                "DARK"
+            ],
+            "resist": [
+                "PLANT",
+                "BRAWL",
+                "EARTH"
+            ],
+            "immune": []
+        }
+    },
+    "TOXIC": {
+        "id": "TOXIC",
+        "attackingMatchups": {
+            "effective": [
+                "PLANT",
+                "WATER",
+                "BRAWL",
+                "LIGHT"
+            ],
+            "resist": [
+                "PLANT",
+                "TOXIC",
+                "BRAWL",
+                "LIGHT"
+            ],
+            "immune": []
+        }
+    },
+    "BRAWL": {
+        "id": "BRAWL",
+        "attackingMatchups": {
+            "effective": [
+                "SIMPLE",
+                "ICE",
+                "DARK",
+                "CRYSTAL",
+                "METAL"
+            ],
+            "resist": [
+                "BUG",
+                "CRYSTAL",
+                "DARK"
+            ],
+            "immune": []
+        }
+    },
+    "MIND": {
+        "id": "MIND",
+        "attackingMatchups": {
+            "effective": [
+                "SIMPLE",
+                "TOXIC",
+                "BRAWL"
+            ],
+            "resist": [
+                "BRAWL",
+                "MIND"
+            ],
+            "immune": []
+        }
+    },
+    "DARK": {
+        "id": "DARK",
+        "attackingMatchups": {
+            "effective": [
+                "LIGHT",
+                "MIND",
+                "SPIRIT"
+            ],
+            "resist": [
+                "DARK",
+                "SPIRIT"
+            ],
+            "immune": [
+                "MIND"
+            ]
+        }
+    },
+    "LIGHT": {
+        "id": "LIGHT",
+        "attackingMatchups": {
+            "effective": [
+                "BRAWL",
+                "DARK",
+                "SPIRIT",
+                "ARCHAIC"
+            ],
+            "resist": [
+                "BRAWL",
+                "BUG"
+            ],
+            "immune": [
+                "ARCHAIC"
+            ]
+        }
+    },
+    "SPIRIT": {
+        "id": "SPIRIT",
+        "attackingMatchups": {
+            "effective": [
+                "BRAWL",
+                "MIND",
+                "SPIRIT"
+            ],
+            "resist": [
+                "BUG",
+                "TOXIC"
+            ],
+            "immune": [
+                "SIMPLE",
+                "BRAWL"
+            ]
+        }
+    },
+    "EARTH": {
+        "id": "EARTH",
+        "attackingMatchups": {
+            "effective": [
+                "FIRE",
+                "ELECTRIC",
+                "TOXIC",
+                "CRYSTAL",
+                "METAL"
+            ],
+            "resist": [
+                "TOXIC",
+                "CRYSTAL"
+            ],
+            "immune": [
+                "ELECTRIC"
+            ]
+        }
+    },
+    "CRYSTAL": {
+        "id": "CRYSTAL",
+        "attackingMatchups": {
+            "effective": [
+                "FIRE",
+                "ICE",
+                "BUG",
+                "AIR"
+            ],
+            "resist": [
+                "SIMPLE",
+                "FIRE",
+                "TOXIC",
+                "LIGHT",
+                "AIR"
+            ],
+            "immune": []
+        }
+    },
+    "METAL": {
+        "id": "METAL",
+        "attackingMatchups": {
+            "effective": [
+                "ICE",
+                "CRYSTAL",
+                "LIGHT"
+            ],
+            "resist": [
+                "SIMPLE",
+                "PLANT",
+                "ICE",
+                "AIR",
+                "MIND",
+                "BUG",
+                "CRYSTAL",
+                "ARCHAIC",
+                "METAL",
+                "LIGHT"
+            ],
+            "immune": [
+                "TOXIC"
+            ]
+        }
+    },
+    "ARCHAIC": {
+        "id": "ARCHAIC",
+        "attackingMatchups": {
+            "effective": [
+                "SPIRIT",
+                "ARCHAIC"
+            ],
+            "resist": [
+                "PLANT",
+                "FIRE",
+                "WATER",
+                "ELECTRIC",
+                "SPIRIT"
+            ],
+            "immune": []
+        }
+    }
+}

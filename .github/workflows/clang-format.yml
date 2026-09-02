@@ -1,0 +1,29 @@
+name: Clang Format Check
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 2
+
+      - name: Run Clang Format
+        uses: jayllyz/clang-format-action@v1
+        with:
+          check: true 
+          style: file 
+          extensions: js, ts
+
+      - name: Commit Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+            commit_message: "chore(style): auto-format TypeScript code"
